@@ -35,6 +35,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         System.out.println("Great! it is " + validateNumber(num) + " number.");
+        sc.close();
     }
 
     public static void main(String[] args) {
